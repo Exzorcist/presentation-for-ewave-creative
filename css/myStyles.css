@@ -98,3 +98,58 @@ canvas{
 	color: black;
 	text-shadow: 1px 0px 85px rgba(255, 167, 0, 1);
 }
+
+.logos-wrapper {
+	position: relative;
+}
+
+.logos-wrapper .logo-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    transform: rotate(-15deg);
+}
+
+.logos-wrapper .logo-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+}
+
+.logos-wrapper .logo-4 {
+    position: absolute;
+    bottom: -100%;
+    left: 10%;
+    background: white !important;
+    transform: rotate(10deg);
+}
+
+.logos-wrapper .logo-5 {
+    position: absolute;
+    bottom: -130%;
+    left: 30%;
+    width: 25%;
+}
+
+.logos-wrapper .logo-6 {
+	position: absolute;
+    top: 110%;
+    right: 5%;
+    transform: rotate(40deg);
+}
+
+.logos-wrapper .logo-7 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20%;
+}
+
+.logos-wrapper .logo-3 {
+	width: 50%;
+    position: relative;
+    top: 150px;
+    left: -20%;
+}
